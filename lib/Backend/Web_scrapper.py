@@ -1,3 +1,18 @@
+pip install vaderSentiment
+pip install gensim
+pip install newspaper3k
+
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from gensim.summarization.summarizer import summarize
+#from gensim.summarization import keywords
+from newspaper import Article
+#from bs4 import BeautifulSoup
+import re
+#import urllib.parse
+from urllib.parse import urlparse
+import time
+import requests
+from bs4 import BeautifulSoup
 
 def googleSearch(ingr):
     g_clean = []
