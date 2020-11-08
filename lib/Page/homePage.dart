@@ -1,11 +1,9 @@
-import 'dart:io';
-
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'SkinCarePage.dart';
 import 'MakeUpPage.dart';
 import 'FoodPage.dart';
+import 'Camera.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -27,30 +25,85 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+   void _showPopupMenu() {
+    showMenu(
+      context: context,
+      position: RelativeRect.fromLTRB(150, 300, 150, 300),
+      items: [
+        PopupMenuItem(
+            child: new Tab(
+                icon: Container(
+                  child: Image(
+                    image: AssetImage(
+                      "assets/icon/camera.png",
+                    ),
+                    fit: BoxFit.cover,
+                  ),
+                  height: 50,
+                  width: 50,
+                ),
+          ),
+        ),
+        PopupMenuItem(
+          child: new Tab(
+            icon: Container(
+              child: Image(
+                image: AssetImage(
+                  "assets/icon/picture.png",
+                ),
+                fit: BoxFit.cover,
+              ),
+              height: 50,
+              width: 50,
+            ),
+          ),
+          ),
+      ],
+      elevation: 8.0,
+    );
+  }
 
-  void _skinCare() {
-    Navigator.push(
+  void _skinCare() async {
+    await Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => SkinCarePage(),
+        builder: (context) => TakePictureScreen(),
       ),
+    );
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => SkinCarePage(),
+        ),
     );
   }
-  void _makeUp() {
-    Navigator.push(
+  void _makeUp() async{
+    await Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => MakeUpPage(),
+        builder: (context) => TakePictureScreen(),
       ),
     );
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => MakeUpPage(),
+        ),
+      );
   }
-  void _food() {
-    Navigator.push(
+  void _food() async{
+    await Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => FoodPage(),
+        builder: (context) => TakePictureScreen(),
       ),
     );
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => FoodPage(),
+        ),
+      );
   }
 
   @override
@@ -131,3 +184,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
