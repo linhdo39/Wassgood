@@ -1,3 +1,1 @@
 # Scanlator
-SYNT HACKATHON
-MD HACKATHON
