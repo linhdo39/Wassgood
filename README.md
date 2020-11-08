@@ -2,12 +2,7 @@
 An app that lets you scan ingredient list in any product, and informs whether it will be good for you or be used with caution. 
 
 # Screenshots
-![Screenshot_1604873798](https://user-images.githubusercontent.com/72121311/98485791-8bfcf800-21de-11eb-9607-e23812459b7b.png)
-![Screenshot_1604873813](https://user-images.githubusercontent.com/72121311/98485792-8bfcf800-21de-11eb-8086-5cbe29abac81.png)
-![Screenshot_1604873836](https://user-images.githubusercontent.com/72121311/98485793-8bfcf800-21de-11eb-9bae-de3b3d6ce9b8.png)
-![Screenshot_1604873840](https://user-images.githubusercontent.com/72121311/98485794-8c958e80-21de-11eb-882f-24fb56b6273b.png)
-![Screenshot_1604873844](https://user-images.githubusercontent.com/72121311/98485795-8c958e80-21de-11eb-9881-50b9f0320905.png)
-![Screenshot_1604873849](https://user-images.githubusercontent.com/72121311/98485796-8c958e80-21de-11eb-9129-7d43db2ace1e.png)
-![Screenshot_1604873854](https://user-images.githubusercontent.com/72121311/98485797-8c958e80-21de-11eb-8f2d-f426b2bafdea.png)
-![Screenshot_1604873857](https://user-images.githubusercontent.com/72121311/98485798-8d2e2500-21de-11eb-8232-1f1a5a5db428.png)
+<pre>
+<img src="https://user-images.githubusercontent.com/72121311/98486124-18a8b580-21e1-11eb-95d2-99e95024673e.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486126-18a8b580-21e1-11eb-8c4d-1dbe36b0314b.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486127-18a8b580-21e1-11eb-9962-9e45da9313dc.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486128-18a8b580-21e1-11eb-83db-6710968d74de.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486118-17778880-21e1-11eb-9a4c-8d0987195818.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486119-17778880-21e1-11eb-8c0d-6b3374fbefac.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486120-18101f00-21e1-11eb-907c-fc021457eaac.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486121-18101f00-21e1-11eb-813a-a664e52c5795.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486122-18101f00-21e1-11eb-9120-f7217882057e.png" width="250"> <img src="https://user-images.githubusercontent.com/72121311/98486123-18101f00-21e1-11eb-8065-670bb2c9498f.png" width="250">
 
+ </pre>
