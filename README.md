@@ -3,6 +3,12 @@ An app that lets you scan ingredient list in any product, and informs whether it
 
 # Screenshots
 <pre>
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/275/803/datas/original.jpg" width="250"> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/275/935/datas/original.jpg" width="250"> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/275/062/datas/original.jpg" width="250"> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/275/065/datas/original.jpg" width="250"> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/275/064/datas/gallery.jpg" width="250"> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/275/063/datas/gallery.jpg" width="250"> <img src="https://challengepost-s3-challengepost.netdna-> 
-
+![Screenshot_1604873798](https://user-images.githubusercontent.com/72121311/98485791-8bfcf800-21de-11eb-9607-e23812459b7b.png)
+![Screenshot_1604873813](https://user-images.githubusercontent.com/72121311/98485792-8bfcf800-21de-11eb-8086-5cbe29abac81.png)
+![Screenshot_1604873836](https://user-images.githubusercontent.com/72121311/98485793-8bfcf800-21de-11eb-9bae-de3b3d6ce9b8.png)
+![Screenshot_1604873840](https://user-images.githubusercontent.com/72121311/98485794-8c958e80-21de-11eb-882f-24fb56b6273b.png)
+![Screenshot_1604873844](https://user-images.githubusercontent.com/72121311/98485795-8c958e80-21de-11eb-9881-50b9f0320905.png)
+![Screenshot_1604873849](https://user-images.githubusercontent.com/72121311/98485796-8c958e80-21de-11eb-9129-7d43db2ace1e.png)
+![Screenshot_1604873854](https://user-images.githubusercontent.com/72121311/98485797-8c958e80-21de-11eb-8f2d-f426b2bafdea.png)
+![Screenshot_1604873857](https://user-images.githubusercontent.com/72121311/98485798-8d2e2500-21de-11eb-8232-1f1a5a5db428.png)
 </pre>
