@@ -27,6 +27,9 @@ dependencies:
   image_picker: ^0.6.7+12
   path_provider: ^1.6.24
   path: ^1.7.0
+  firebase_ml_vision: ^0.9.7
+  clipboard: ^0.1.2+8
+  google_fonts: ^1.1.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -46,6 +49,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icon/
+    - assets/result/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

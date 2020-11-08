@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'Page/homePage.dart';
+import 'homePage.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -26,7 +26,7 @@ class _MyAppState extends State<Splash> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => MyApp(),
+            builder: (context) => MyHomePage(),
           ),
         );
       },
@@ -37,12 +37,12 @@ class _MyAppState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-         constraints: BoxConstraints.expand(),
-          decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(
-                      "assets/images/appdesign.jpg"),
-                  fit: BoxFit.cover)),
+        constraints: BoxConstraints.expand(),
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage(
+                    "assets/images/appdesign.jpg"),
+                fit: BoxFit.cover)),
       ),
     );
   }
